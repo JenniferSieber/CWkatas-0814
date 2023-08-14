@@ -8,7 +8,6 @@ const bingo = (ticket, win) => {
       count++;
     }
   });
-
   return (count >= win) ? 'Winner!' : 'Loser!';
 }
 
@@ -38,7 +37,6 @@ console.log(finder([[false],[false],[false],[false],[false]]));
 const toNumberArray = stringArr => stringArr.map(Number);
 
 console.log(toNumberArray(["1.1","2.2","3.3"]));
-
 
 // KATA 4 8kyu
 // https://www.codewars.com/kata/5583090cbe83f4fd8c000051/train/javascript
